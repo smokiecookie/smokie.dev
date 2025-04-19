@@ -4,7 +4,7 @@ pubDatetime: 2025-04-19T21:11:15.000+06:00
 modDatetime:
 title: Checking My Valorant Shop Until It's Worth It
 featured: true
-draft: true
+draft: false
 tags:
   - valorant
 description: Keeping track of the skins that show up while I wait for something actually worth spending on. The skins I want are mostly the Spectrum Classic, Prelude to Chaos Vandal and Neo-Frontier Sheriff.
