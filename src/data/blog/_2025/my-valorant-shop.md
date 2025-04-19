@@ -1,7 +1,7 @@
 ---
 author: Smokie
 pubDatetime: 2025-04-19T23:24:46.000+06:00
-modDatetime: 2025-04-19T23:26:45.000+06:00
+modDatetime: 2025-04-20T00:03:45.000+06:00
 title: Checking My Valorant Shop Until It's Worth It
 featured: true
 draft: false
