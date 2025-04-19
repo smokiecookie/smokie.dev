@@ -42,8 +42,8 @@
   },
   
 
-  "mod": {
-    "prefix": "mod",
+  "time": {
+    "prefix": "time",
     "description": "modified date for markdown",
     "scope": "",
     "body": [
