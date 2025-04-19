@@ -1,7 +1,7 @@
 ---
 author: Smokie
 pubDatetime: 2025-04-19T23:24:46.000+06:00
-modDatetime: 2025-04-20T00:03:45.000+06:00
+modDatetime: 2025-04-20T00:10:26.000+06:00
 title: Checking My Valorant Shop Until It's Worth It
 featured: true
 draft: false
@@ -16,7 +16,7 @@ Every time I open Valorant, I check the shop hoping for one of the skins I actua
 
 ## 19 April 2025 - 10:38pm
 
-I mean they gave me vandal skins, finally!
+I mean they did gave me vandal skins, sure!
 ![Shop](@/assets/images/_2025/my-valorant-shop/shop7.png)
 
 ## 18 April 2025 - 6:20am
