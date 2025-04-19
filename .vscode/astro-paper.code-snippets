@@ -39,6 +39,16 @@
     "body": [
       "${CURRENT_DATE/0(.)/$1/} ${CURRENT_MONTH_NAME} ${CURRENT_YEAR} - ${CURRENT_HOUR/(13)|(14)|(15)|(16)|(17)|(18)|(19)|(20)|(21)|(22)|(23)|0(.)/${1:+1}${2:+2}${3:+3}${4:+4}${5:+5}${6:+6}${7:+7}${8:+8}${9:+9}${10:+10}${11:+11}$12/}:${CURRENT_MINUTE}${CURRENT_HOUR/(0.|10|11)/${1:?am:pm}/}"
     ]
+  },
+  
+
+  "mod": {
+    "prefix": "mod",
+    "description": "modified date for markdown",
+    "scope": "",
+    "body": [
+      "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}.000${CURRENT_TIMEZONE_OFFSET}"
+    ]
   }
 
 }
