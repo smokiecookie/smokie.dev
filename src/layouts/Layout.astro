@@ -1,5 +1,7 @@
 ---
 import { ClientRouter } from "astro:transitions";
+import { AstroFont } from "astro-font";
+import { join } from "node:path";
 import { SITE } from "@/config";
 import "@/styles/global.css";
 
@@ -56,6 +58,48 @@ const structuredData = {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
+
+    <!-- Custom Font -->
+    <AstroFont
+      config={[
+        {
+          name: "HEX Franklin",
+          src: [
+            {
+              style: "normal",
+              path: join(
+                process.cwd(),
+                "public",
+                "fonts",
+                "HEX_Franklin_v0.3_Variable.woff2"
+              ),
+            },
+          ],
+          display: "swap",
+          selector: "body",
+          fallback: "sans-serif",
+          cssVariable: "font-sans",
+        },
+        {
+          name: "MonoLisa",
+          src: [
+            {
+              style: "normal",
+              path: join(
+                process.cwd(),
+                "public",
+                "fonts",
+                "MonoLisaVariableNormal.woff2"
+              ),
+            },
+          ],
+          display: "swap",
+          selector: "code",
+          fallback: "monospace",
+          cssVariable: "font-mono",
+        },
+      ]}
+    />
 
     <!-- General Meta Tags -->
     <title>{title}</title>
