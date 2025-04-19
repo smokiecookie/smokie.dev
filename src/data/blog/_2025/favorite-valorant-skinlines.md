@@ -18,3 +18,4 @@ These Are The Skins I'm waiting for:
 ![Prime Vandal](@/assets/images/_2025/favorite-valorant-skinlines/prime-vandal.png)
 ![Singularity Vandal](@/assets/images/_2025/favorite-valorant-skinlines/singularity-vandal.png)
 ![Spectrum Classic](@/assets/images/_2025/favorite-valorant-skinlines/spectrum-classic.png)
+![Neo Frontier Sheriff](https://cdn.gameboost.com/accounts/593316/gallery/conversions/c70ad8fa-6eed-47ac-bc3e-c98ce1f007c0-webp.webp)
