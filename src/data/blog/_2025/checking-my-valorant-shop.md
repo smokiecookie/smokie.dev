@@ -12,13 +12,7 @@ description: Keeping track of the skins that show up while I wait for something 
 
 Every time I open Valorant, I check the shop hoping for one of the skins I actually want — but most of the time it’s a bunch of stuff I’m not really into. I'm keeping this little list to track what shows up in my store, just in case I regret skipping anything later.
 
-Currently, I'm mainly waiting for:
-
-- **Spectrum Classic**
-- **Prelude to Chaos Vandal**
-- **Neo-Frontier Sheriff**
-
-Here are the skins that have shown up so far:
+<!-- These Are The Skins I'm waiting for:
 
 ### Araxys Vandal
 
@@ -46,8 +40,36 @@ Here are the skins that have shown up so far:
 
 ### Spectrum Classic
 
-![Spectrum Classic](@/assets/images/_2025/spectrum-classic.png)
+![Spectrum Classic](@/assets/images/_2025/spectrum-classic.png) -->
 
 ---
 
-Still holding out for the Neo-Frontier Sheriff. Until then, the grind (and the window shopping) continues.
+## 13 April 2025 - 7:00am
+
+Dude I just want the vandal not the Operator 😭...
+![Shop](@/assets/images/_2025/shop1.png)
+
+## 14 April 2025 - 6:32am
+
+Bucky Only Day It is...
+![Shop](@/assets/images/_2025/shop2.png)
+
+## 15 April 2025 - 6:00am
+Hmm I kinda like the rgx op but I'll pass.
+![Shop](@/assets/images/_2025/shop3.png)
+
+## 16 April 2025 - 6:53am
+Neo Sheriff Not The Axe Pleasee!
+![Shop](@/assets/images/_2025/shop4.png)
+
+## 17 April 2025 - 6:50am
+Nope. Not Today.
+![Shop](@/assets/images/_2025/shop5.png)
+
+## 18 April 2025 - 6:20am
+I hate origin vandal so...
+![Shop](@/assets/images/_2025/shop6.png)
+
+## 19 April 2025 - 10:38pm
+I mean they gave me vandal skins, finally!
+![Shop](@/assets/images/_2025/shop7.png)
