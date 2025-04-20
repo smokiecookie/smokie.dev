@@ -42,5 +42,37 @@
   "valorantStats": {
     "url": "https://i.imgur.com/IcTFgad.png",
     "alt": "valorant stats settings"
+  },
+  "valoshop1": {
+    "url": "https://i.imgur.com/YnEiHSL.png",
+    "alt": "valoshop day 01"
+  },
+  "valoshop2": {
+    "url": "https://i.imgur.com/IVrRVvh.png",
+    "alt": "valoshop day 02"
+  },
+  "valoshop3": {
+    "url": "https://i.imgur.com/jy2mw4q.png",
+    "alt": "valoshop day 03"
+  },
+  "valoshop4": {
+    "url": "https://i.imgur.com/VvtYuVW.png",
+    "alt": "valoshop day 04"
+  },
+  "valoshop5": {
+    "url": "https://i.imgur.com/ZLjRYA1.png",
+    "alt": "valoshop day 05"
+  },
+  "valoshop6": {
+    "url": "https://i.imgur.com/s4Ngr9f.png",
+    "alt": "valoshop day 06"
+  },
+  "valoshop7": {
+    "url": "https://i.imgur.com/lEQgVBo.png",
+    "alt": "valoshop day 07"
+  },
+  "valoshop8": {
+    "url": "https://i.imgur.com/2TpSiKZ.png",
+    "alt": "valoshop 08"
   }
 }
