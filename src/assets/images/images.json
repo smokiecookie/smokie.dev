@@ -26,5 +26,21 @@
   "spectrumClassic": {
     "url": "https://i.imgur.com/ZaW6p3W.png",
     "alt": "spectrum classic"
+  },
+  "rawAccelConfig": {
+    "url": "https://i.imgur.com/Hy38RMy.png",
+    "alt": "raw accel config"
+  },
+  "valorantMinimapSettings": {
+    "url": "https://i.imgur.com/MhXAcgI.png",
+    "alt": "valorant minimap settings"
+  },
+  "valorantGraphicsSettings": {
+    "url": "https://i.imgur.com/IKTptTZ.png",
+    "alt": "valorant graphics settings"
+  },
+  "valorantStats": {
+    "url": "https://i.imgur.com/IcTFgad.png",
+    "alt": "valorant stats settings"
   }
 }
