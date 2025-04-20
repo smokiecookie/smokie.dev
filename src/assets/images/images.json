@@ -74,5 +74,21 @@
   "valoshop8": {
     "url": "https://i.imgur.com/2TpSiKZ.png",
     "alt": "valoshop 08"
+  },
+  "tenzPlus": {
+    "url": "https://i.imgur.com/K8u5ttO.png",
+    "alt": "tenz plus"
+  },
+  "plusSmall": {
+    "url": "https://i.imgur.com/NiZVXAN.png",
+    "alt": "plus small"
+  },
+  "circleCrosshair": {
+    "url": "https://i.imgur.com/lgWxjPd.png",
+    "alt": "circle crosshair"
+  },
+  "dotCrosshair": {
+    "url": "https://i.imgur.com/9BgqAw9.png",
+    "alt": "dot crosshair"
   }
 }
