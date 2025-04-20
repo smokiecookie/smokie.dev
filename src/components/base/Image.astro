@@ -1,0 +1,32 @@
+---
+import { Image as AstroImage } from "astro:assets";
+
+export interface Props {
+  src: {
+    url: string;
+    alt: string;
+  };
+  width?: number;
+  height?: number;
+  class?: string;
+  loading?: "lazy" | "eager";
+}
+
+const {
+  src: { url, alt },
+  width,
+  height,
+  class: className = "",
+  loading = "lazy",
+} = Astro.props;
+---
+
+<AstroImage
+  src={url}
+  {alt}
+  {width}
+  {height}
+  {loading}
+  inferSize={true}
+  class={className}
+/>
