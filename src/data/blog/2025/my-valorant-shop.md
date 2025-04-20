@@ -16,39 +16,39 @@ Every time I open Valorant, I check the shop hoping for one of the skins I actua
 
 ## 20 April 2025 - 7:39am
 
-![Shop](@/assets/images/_2025/my-valorant-shop/shop8.PNG)
+![Shop](@/assets/images/2025/my-valorant-shop/shop8.PNG)
 
 ## 19 April 2025 - 10:38pm
 
 I mean they did gave me vandal skins, sure!
-![Shop](@/assets/images/_2025/my-valorant-shop/shop7.png)
+![Shop](@/assets/images/2025/my-valorant-shop/shop7.png)
 
 ## 18 April 2025 - 6:20am
 
 I hate origin vandal so...
-![Shop](@/assets/images/_2025/my-valorant-shop/shop6.png)
+![Shop](@/assets/images/2025/my-valorant-shop/shop6.png)
 
 ## 17 April 2025 - 6:50am
 
 Nope. Not Today.
-![Shop](@/assets/images/_2025/my-valorant-shop/shop5.png)
+![Shop](@/assets/images/2025/my-valorant-shop/shop5.png)
 
 ## 16 April 2025 - 6:53am
 
 Neo Sheriff Not The Axe Pleasee!
-![Shop](@/assets/images/_2025/my-valorant-shop/shop4.png)
+![Shop](@/assets/images/2025/my-valorant-shop/shop4.png)
 
 ## 15 April 2025 - 6:00am
 
 Hmm I kinda like the rgx op but I'll pass.
-![Shop](@/assets/images/_2025/my-valorant-shop/shop3.png)
+![Shop](@/assets/images/2025/my-valorant-shop/shop3.png)
 
 ## 14 April 2025 - 6:32am
 
 Bucky Only Day It is...
-![Shop](@/assets/images/_2025/my-valorant-shop/shop2.png)
+![Shop](@/assets/images/2025/my-valorant-shop/shop2.png)
 
 ## 13 April 2025 - 7:00am
 
 Dude I just want the vandal not the Operator 😭...
-![Shop](@/assets/images/_2025/my-valorant-shop/shop1.png)
+![Shop](@/assets/images/2025/my-valorant-shop/shop1.png)

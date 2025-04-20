@@ -19,14 +19,14 @@ description: Valorant + RawAccel Settings I use
 
 ## Raw Accel Config
 
-![raw-accel-configuration](@/assets/images/_2025/valorant-settings/raw-accel.png)
+![raw-accel-configuration](@/assets/images/2025/valorant-settings/raw-accel.png)
 I have raw-accel turned on. Angle snapping is set to `10`. In-game sensitivity is `0.3`. Also You can find my favorite crosshairs [here](/posts/valorant-crosshair-database)
 
 ## General Settings
 
 - Minimap Size - `1.2`
 - Minimap Zoom - `0.965`
-  ![minimap-settings](@/assets/images/_2025/valorant-settings/minimap.png)
+  ![minimap-settings](@/assets/images/2025/valorant-settings/minimap.png)
 - in privacy, `only allow party request from friends`
 - turn off `show corpses`
 
@@ -40,11 +40,11 @@ I have raw-accel turned on. Angle snapping is set to `10`. In-game sensitivity i
 
 ## Graphics Settings
 
-![turn-these-graphics-settings-on](@/assets/images/_2025/valorant-settings/graphics.png)
+![turn-these-graphics-settings-on](@/assets/images/2025/valorant-settings/graphics.png)
 
 ## Turn On These Stats
 
-![enable-stats](@/assets/images/_2025/valorant-settings/stats.png)
+![enable-stats](@/assets/images/2025/valorant-settings/stats.png)
 
 ## Audio
 
