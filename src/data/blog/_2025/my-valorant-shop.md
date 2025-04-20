@@ -16,7 +16,6 @@ Every time I open Valorant, I check the shop hoping for one of the skins I actua
 
 ## 20 April 2025 - 7:39am
 
-...
 ![Shop](@/assets/images/_2025/my-valorant-shop/shop8.png)
 
 ## 19 April 2025 - 10:38pm
