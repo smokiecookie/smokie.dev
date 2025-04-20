@@ -1,7 +1,7 @@
 ---
 author: Smokie
 pubDatetime: 2025-04-19T23:24:46.000+06:00
-modDatetime: 2025-04-20T00:10:26.000+06:00
+modDatetime: 2025-04-20T07:39:45.000+06:00
 title: Checking My Valorant Shop Until It's Worth It
 featured: true
 draft: false
@@ -13,6 +13,11 @@ description: Keeping track of the skins that show up while I wait for something 
 Every time I open Valorant, I check the shop hoping for one of the skins I actually want — but most of the time it’s a bunch of stuff I’m not really into. I'm keeping this little list to track what shows up in my store, just in case I regret skipping anything later.
 
 ---
+
+## 20 April 2025 - 7:39am
+
+...
+![Shop](@/assets/images/_2025/my-valorant-shop/shop8.png)
 
 ## 19 April 2025 - 10:38pm
 
