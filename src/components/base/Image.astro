@@ -2,27 +2,30 @@
 import { Image as AstroImage } from "astro:assets";
 
 export interface Props {
-  src: {
-    url: string;
-    alt: string;
-  };
-  width?: number;
-  height?: number;
+  src: string;
+  alt: string;
   class?: string;
+  width?: number;
+  domain?: string;
+  height?: number;
+  local?: boolean;
   loading?: "lazy" | "eager";
 }
 
 const {
-  src: { url, alt },
+  src,
+  alt,
   width,
   height,
-  class: className = "",
+  local = false,
   loading = "lazy",
+  class: className = "",
+  domain = "https://i.imgur.com/",
 } = Astro.props;
 ---
 
 <AstroImage
-  src={url}
+  src={local ? src : domain + src}
   {alt}
   {width}
   {height}
