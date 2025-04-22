@@ -13,11 +13,11 @@ import svelte from "@astrojs/svelte";
 export default defineConfig({
   site: SITE.website,
   integrations: [
+    mdx(),
+    svelte(),
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
     }),
-    mdx(),
-    svelte(),
   ],
   markdown: {
     remarkPlugins: [remarkToc, [remarkCollapse, { test: "Table of contents" }]],
@@ -32,6 +32,9 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
+  },
+  devToolbar: {
+    enabled: false,
   },
   image: {
     // Used for all Markdown images; not configurable per-image
