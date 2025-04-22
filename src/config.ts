@@ -6,8 +6,8 @@ export const SITE = {
   title: "BakedBySmokie",
   ogImage: "default-og.png",
   lightAndDarkMode: true,
-  postPerIndex: 10,
-  postPerPage: 10,
+  postPerIndex: 3,
+  postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
