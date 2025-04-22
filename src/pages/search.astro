@@ -3,13 +3,11 @@ import "@pagefind/default-ui/css/ui.css";
 import Main from "@/layouts/Main.astro";
 import Layout from "@/layouts/Layout.astro";
 import { SITE } from "@/config";
-
-const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
 ---
 
 <Layout title={`Search | ${SITE.title}`}>
   <Main pageTitle="Search" pageDesc="Search any article ...">
-    <div id="pagefind-search" transition:persist data-backurl={backUrl}></div>
+    <div id="pagefind-search" transition:persist></div>
   </Main>
 </Layout>
 
@@ -46,9 +44,6 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
         processTerm: function (term: string) {
           params.set("q", term); // Update the `q` parameter in the URL
           history.replaceState(history.state, "", "?" + params.toString()); // Push the new URL without reloading
-
-          const backUrl = pageFindSearch?.dataset?.backurl;
-          sessionStorage.setItem("backUrl", backUrl + "?" + params.toString());
 
           return term;
         },
