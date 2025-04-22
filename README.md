@@ -7,7 +7,6 @@ Welcome to **Smokie.dev**, my little corner of the web! This is my personal blog
 - **Minimal Design**: Clean and distraction-free layout.
 - **Responsive**: Optimized for all devices, from desktops to mobile.
 - **SEO-Friendly**: Built with best practices to ensure visibility.
-- **Dark Mode**: Supports both light and dark themes.
 - **Markdown-Based**: Blog posts are written in Markdown for simplicity.
 - **Customizable**: Easily extendable and adaptable to new features.
 
