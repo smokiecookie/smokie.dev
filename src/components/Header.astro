@@ -32,11 +32,11 @@ const isActive = (path: string) => {
   >
     <div
       id="top-nav-wrap"
-      class="relative flex w-full items-baseline items-center justify-between bg-background p-2 md:pl-0"
+      class="relative flex w-full items-center justify-between bg-background p-2 md:pl-0"
     >
       <a
         href="/"
-        class="absolute static py-1 text-2xl leading-7 font-semibold whitespace-nowrap"
+        class="absolute py-1 text-2xl leading-7 font-semibold whitespace-nowrap"
       >
         <Image local src="/favicon.png" alt="ok" width={45} height={45} />
       </a>
@@ -44,7 +44,7 @@ const isActive = (path: string) => {
         <ul
           id="menu-items"
           class:list={[
-            "flex w-full justify-center justify-end gap-4",
+            "flex w-full justify-end gap-4",
             "[&>li>a]:block [&>li>a]:px-2 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium [&>li>a]:hover:text-accent",
             ,
           ]}
