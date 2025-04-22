@@ -5,7 +5,6 @@ export const SITE = {
   desc: "Baked by Smokie - My Personal Blog",
   title: "BakedBySmokie",
   ogImage: "default-og.png",
-  lightAndDarkMode: true,
   postPerIndex: 3,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
