@@ -1,100 +1,15 @@
 @import "tailwindcss";
-@import "./typography.css";
+@import "./base.css";
 @import "./theme.css";
+@import "./typography.css";
 
-/* BASE STYLES */
-@layer base {
-  * {
-    scrollbar-width: auto;
-    @apply border-border outline-accent/75;
-    scrollbar-color: var(--color-muted) transparent;
-  }
-  html {
-    font-size: 100%;
-    @apply w-full overflow-y-scroll scroll-smooth;
-  }
+@layer components {
+  /* Create classes that aren't long enough to become a UI component
+    * but are long enough to be used in multiple places here.
+  */
+}
 
-  body {
-    min-height: 100svh;
-    font-synthesis: none;
-    font-size: var(--step-0);
-    font-family: var(--font-sans);
-    text-rendering: optimizelegibility;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    line-height: var(--line-height-body);
-    font-weight: var(--font-weight-normal);
-    @apply bg-background text-foreground;
-  }
-
-  ::selection {
-    @apply bg-accent/75 text-background;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: var(--font-weight-bold);
-  }
-
-  h1 {
-    font-size: var(--step-5);
-    line-height: var(--line-height-display);
-    letter-spacing: var(--letter-spacing-condensed);
-  }
-
-  h2 {
-    font-size: var(--step-3);
-    line-height: var(--line-height-tight);
-    letter-spacing: var(--letter-spacing-condensed);
-  }
-
-  h3 {
-    font-size: var(--step-2);
-    line-height: var(--line-height-tight);
-  }
-
-  h4 {
-    font-size: var(--step-1);
-    line-height: var(--line-height-tight);
-  }
-
-  h5 {
-    font-size: var(--step-0);
-    line-height: var(--line-height-tight);
-  }
-
-  small {
-    font-size: var(--step--1);
-    line-height: var(--line-height-body);
-  }
-
-  code,
-  pre {
-    font-family: var(--font-mono);
-    font-feature-settings:
-      "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "zero", "onum";
-  }
-
-  strong {
-    font-weight: var(--font-weight-bold);
-  }
-
-  a,
-  button {
-    @apply outline-offset-1 outline-accent;
-    @apply focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
-  }
-  button:not(:disabled),
-  [role="button"]:not(:disabled) {
-    cursor: pointer;
-  }
-
-  section,
-  footer {
-    @apply mx-auto max-w-3xl px-4;
-  }
+/* https://tailwindcss.com/docs/upgrade-guide#container-configuration */
+@utility container {
+  @apply mx-auto w-full max-w-3xl p-4;
 }
