@@ -1,7 +1,6 @@
 ---
 import IconSearch from "@/assets/icons/IconSearch.svg";
 import LinkButton from "@/components/LinkButton.astro";
-import { SITE } from "@/config";
 import Image from "@/components/base/Image.astro";
 
 const { pathname } = Astro.url;
@@ -86,9 +85,3 @@ const isActive = (path: string) => {
     </div>
   </div>
 </header>
-
-<style lang="postcss">
-  .active-nav {
-    @apply underline decoration-wavy decoration-2 underline-offset-4;
-  }
-</style>

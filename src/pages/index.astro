@@ -17,7 +17,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
 <Layout>
   <main id="main-content" data-layout="index" class="container">
-    <section id="hero">
+    <section id="hero" class="mb-10">
       <h1 class="inline-block">Smokie</h1>
       <a
         target="_blank"
@@ -48,14 +48,14 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </p>
     </section>
 
-    <section id="featured">
+    <section id="featured" class="mb-10">
       <h2>Featured</h2>
       <ul>
         {featuredPosts.map(data => <Card variant="h3" {...data} />)}
       </ul>
     </section>
 
-    <section id="recent-posts">
+    <section id="recent-posts" class="mb-10">
       <h2>Recent Posts</h2>
       <ul>
         {
@@ -74,10 +74,4 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </LinkButton>
     </div>
   </main>
-
-  <!-- <style lang="postcss">
-    section {
-      @apply mb-10;
-    }
-  </style> -->
 </Layout>
