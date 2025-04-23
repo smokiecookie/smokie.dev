@@ -1,23 +1,30 @@
-<hr class="w-full border-t-[1px] border-[#3a3a3a]" />
+<hr class="mt-10 w-full border-t-[1px] border-[#3a3a3a]" />
 
-<footer class="container">
-  <section>
-    <a href="/about">About</a>
-    <a href="/webrings">Webrings</a>
-    <a href="/guestbook">Guestbook</a>
+<footer
+  class:list={["container mx-auto my-3", "grid grid-cols-3"]}
+  style="font-size: var(--step--1);"
+>
+  <section class="flex flex-col gap-3">
     <a href="/rss.xml">RSS</a>
-    <a href="/colophon">Colophon</a>
+    <a href="/tags">Tags</a>
+    <a href="/posts">Posts</a>
+    <a href="/about">About</a>
+    <a href="/archive">Archive</a>
   </section>
 
-  <section>
-    <a href="https://www.are.na/eva-decker/" target="_blank">Are.na</a>
-    <a href="https://bsky.app/profile/eva.town" target="_blank">Bluesky</a>
-    <a href="https://github.com/evadecker" target="_blank">GitHub</a>
-    <a href="https://hardcover.app/@evadecker" target="_blank">Hardcover</a>
-    <a href="https://linkedin.com/in/evadecker" target="_blank">LinkedIn</a>
+  <section
+    class="flex flex-col gap-3 underline decoration-muted decoration-2 underline-offset-4"
+  >
+    <a href="https://github.com/smokiecookie" target="_blank">GitHub</a>
+    <a href="https://x.com/smokie112000" target="_blank">Twitter</a>
+    <a href="https://github.com/smokiecookie/smokie.dev" target="_blank"
+      >Source</a
+    >
+    <a href="https://linkedin.com/in/smokiecookie" target="_blank">LinkedIn</a>
+    <a href="https://hardcover.app/@smokie" target="_blank">Hardcover</a>
   </section>
 
-  <section>
+  <section class="flex flex-col gap-3">
     <h3>Subscribe</h3>
     <p>
       I send emails a few times a year about design and web dev. Written like
@@ -26,17 +33,11 @@
     <form>
       <input
         type="email"
-        placeholder="Your email"
+        placeholder="Work in Progress..."
         aria-label="Your email"
         required
+        class="w-full rounded-md border border-muted p-2"
       />
-      <button type="submit" aria-label="Subscribe"> Submit </button>
     </form>
   </section>
 </footer>
-
-<style>
-  footer {
-    font-size: var(--step--1);
-  }
-</style>
