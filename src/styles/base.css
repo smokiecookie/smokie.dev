@@ -88,8 +88,4 @@
   [role="button"]:not(:disabled) {
     cursor: pointer;
   }
-
-  section {
-    @apply mb-10;
-  }
 }

@@ -1,3 +1,45 @@
-<footer class="w-full border-t-[1px] border-[#3a3a3a]">
-  <p>hi this footer</p>
+<hr class="w-full border-t-[1px] border-[#3a3a3a]" />
+
+<footer class="container">
+  <section>
+    <a href="/about">About</a>
+    <a href="/webrings">Webrings</a>
+    <a href="/guestbook">Guestbook</a>
+    <a href="/rss.xml">RSS</a>
+    <a href="/colophon">Colophon</a>
+  </section>
+
+  <section>
+    <a href="https://www.are.na/eva-decker/" target="_blank">Are.na</a>
+    <a href="https://bsky.app/profile/eva.town" target="_blank">Bluesky</a>
+    <a href="https://github.com/evadecker" target="_blank">GitHub</a>
+    <a href="https://hardcover.app/@evadecker" target="_blank">Hardcover</a>
+    <a href="https://linkedin.com/in/evadecker" target="_blank">LinkedIn</a>
+  </section>
+
+  <section>
+    <h3>Subscribe</h3>
+    <p>
+      I send emails a few times a year about design and web dev. Written like
+      notes to friends.
+    </p>
+    <form>
+      <input
+        type="email"
+        placeholder="Your email"
+        aria-label="Your email"
+        required
+      />
+      <button type="submit" aria-label="Subscribe"> Submit </button>
+    </form>
+  </section>
 </footer>
+
+<style lang="postcss">
+  footer {
+    font-size: var(--step--1);
+  }
+  section {
+    display: flex;
+  }
+</style>
